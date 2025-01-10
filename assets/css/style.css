@@ -3396,6 +3396,126 @@ hr {
 }
 
 /* line 37, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
+/* Ensure the login box has a fixed width, background, and centered layout */
+.social-login a {
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-login a i {
+  margin-right: 8px;
+}
+
+.social-login a.btn-outline-primary {
+  background-color: #3b5998; 
+  border: 1px solid #3b5998;
+}
+
+.social-login a.btn-outline-primary:hover {
+  background-color: #2d4373;
+}
+
+.social-login a.btn-outline-danger {
+  background-color: #db4437; 
+  border: 1px solid #db4437;
+}
+
+.social-login a.btn-outline-danger:hover {
+  background-color: #c1351d;
+}
+
+.login-area .form-control {
+  width: 100%; 
+  padding: 15px; 
+  font-size: 16px; 
+  height: 50px; 
+  box-sizing: border-box; 
+}
+
+.login-box {
+  width: 400px; 
+  padding: 20px; 
+  margin: 0 auto; 
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border: 1px solid #ddd; 
+  text-align: center; 
+}
+
+/* Align heading and labels to the left */
+.login-area h2 {
+  font-size: 28px;
+  margin-bottom: 20px; 
+  text-align: left; 
+}
+
+/* Style the form labels to align text to the left */
+.login-area .form-label, 
+.login-area .form-check-label {
+  font-size: 18px;
+  display: block; 
+  margin-bottom: 8px; 
+  margin-left: 22px; 
+  text-align: left; 
+  order: 1; 
+}
+
+/* Ensure inputs take full width and are centered */
+.login-area .form-control {
+  width: 100%; 
+  padding: 10px; 
+  font-size: 16px; 
+  box-sizing: border-box; 
+  margin-bottom: 15px; 
+}
+
+/* Adjust the checkbox label and input */
+.login-area .form-check-input {
+  order: 0; 
+  margin-left: 5px; 
+  margin-bottom: 10px;
+}
+
+/* Style the "Remember Me" checkbox */
+.login-area .form-check {
+    display: flex; 
+    align-items: center; 
+}
+
+/* Style the blue link */
+.blue-link {
+  color: #1E90FF; 
+  text-decoration: none; 
+}
+
+.blue-link:hover {
+  text-decoration: underline; 
+}
+
+.login-box {
+  width: 400px; 
+  padding: 20px; 
+  margin: 0 auto; 
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border: 1px solid #ddd;
+  text-align: center; 
+}
+
+.login-area {
+  background-image: url(../img/hero/h1_hero.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 .slider-area {
   margin-top: -1px;
   background-image: url(../img/hero/h1_hero.png);
